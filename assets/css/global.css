@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+:root {
+  --Soft-orange: hsl(35, 77%, 62%);
+  --Soft-red: hsl(5, 85%, 63%);
+
+  --Off-white: hsl(36, 100%, 99%);
+  --Grayish-blue: hsl(233, 8%, 79%);
+  --Dark-grayish-blue: hsl(236, 13%, 42%);
+  --Very-dark-blue: hsl(240, 100%, 5%);
+
+  --inter: 'Inter', sans-serif;
+  --text-description: 400 1.2rem/120% var(--inter);
+  --text-highlight-title: 700 1.4rem/120% var(--inter);
+  --text-highlight-number: 700 1.6rem/120% var(--inter);
+  --text-sidebar-title: 700 1.8rem/120% var(--inter);
+  --text-lg: 800 2rem/120% var(--inter);
+}
