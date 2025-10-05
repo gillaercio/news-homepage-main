@@ -25,9 +25,10 @@ html {
   --Very-dark-blue: hsl(240, 100%, 5%);
 
   --inter: 'Inter', sans-serif;
-  --text-description: 400 1.2rem/120% var(--inter);
-  --text-highlight-title: 700 1.4rem/120% var(--inter);
-  --text-highlight-number: 700 1.6rem/120% var(--inter);
-  --text-sidebar-title: 700 1.8rem/120% var(--inter);
-  --text-lg: 800 2rem/120% var(--inter);
+  --text-description: 400 1.6rem/150% var(--inter);
+  --text-highlight-title: 700 1.8rem/100% var(--inter);
+  --text-button: 600 1.8rem/100% var(--inter);
+  --text-highlight-number: 700 2rem/100% var(--inter);
+  --text-sidebar-title: 700 2.2rem/100% var(--inter);
+  --text-title: 800 4rem/100% var(--inter);
 }
