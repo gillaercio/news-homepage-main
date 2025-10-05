@@ -26,9 +26,10 @@ html {
 
   --inter: 'Inter', sans-serif;
   --text-description: 400 1.6rem/150% var(--inter);
-  --text-highlight-title: 700 1.8rem/100% var(--inter);
+  --text-sidebar-text: 700 1.8rem/100% var(--inter);
   --text-button: 600 1.8rem/100% var(--inter);
-  --text-highlight-number: 700 2rem/100% var(--inter);
-  --text-sidebar-title: 700 2.2rem/100% var(--inter);
+  --text-highlight-number: 700 2.8rem/100% var(--inter);
+  --text-highlight-title: 800 1.6rem/100% var(--inter);
+  --text-sidebar-title: 700 3rem/100% var(--inter);
   --text-title: 800 4rem/100% var(--inter);
 }
