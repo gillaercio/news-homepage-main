@@ -1,13 +1,16 @@
 const menuToggle = document.getElementById('menu-toggle');
-const navMenu = document.querySelector(".header__nav");
+// const navMenu = document.querySelector(".header__nav");
+const navMenu = document.getElementById('site-nav');
 const menuIcon = document.getElementById('menu-icon');
 
-let isOpen = false;
+// let isOpen = false;
 
 menuToggle.addEventListener('click', () => {
-  navMenu.classList.toggle('show');
+  const isOpen = navMenu.classList.toggle('is-open');
+  // navMenu.classList.toggle('show');
+  menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
 
-  isOpen = !isOpen;
+  // isOpen = !isOpen;
   if (isOpen) {
     menuIcon.src = 'assets/images/icon-menu-close.svg';
     menuIcon.alt = 'Close menu';
