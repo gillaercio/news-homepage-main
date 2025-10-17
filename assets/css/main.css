@@ -297,16 +297,15 @@ body {
   .header {
     grid-area: header;
     /* align-items: center; */
+    max-width: 1024px;
+    /* outline: 1px solid red; */
   }
 
   .header__nav {
     /* position: absolute; */
     position: static;
-    /* top: 100%; */
-    /* right: 0; */
-    /* width: 200px; */
+    justify-items: end;
     width: auto;
-    /* height: 100vh; */
     height: auto;
     padding: 0;
     /* background-color: var(--Off-white); */
@@ -347,7 +346,6 @@ body {
     height: 250px;
     /* height: 280px; */
     /* object-fit: cover; */
-    /* border-radius: 4px; */
   }
 
   .hero__content {
@@ -392,7 +390,6 @@ body {
     /* max-height: 100%; */
     margin: 0;
     /* padding: 3rem; */
-    /* border-radius: 6px; */
     /* position: relative; */
   }
 
@@ -402,90 +399,39 @@ body {
     gap: 2.4rem;
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
+    height: 130px;
+    margin-top: 2rem;
+    /* border: 1px solid red; */
   }
 
   .highlight {
     display: flex;
-    /* gap: 1rem; */
-    gap: 1.6rem;
+    gap: 1rem;
+    /* gap: 1.6rem; */
     /* flex-direction: column; */
     flex-direction: row;
     /* align-items: flex-start; */
-    align-items: center;
+    /* align-items: center; */
   }
 
   .highlight__image {
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-    /* border-radius: 4px; */
+    /* width: 100%; */
+    width: 90px;
+    /* height: 120px; */
+    height: 100%;
+    /* object-fit: contain; */
+    /* border: 1px solid yellow; */
   }
 
   .highlight__number {
     font-size:  2.4rem;
   }
-}
 
-/* @media screen and (min-width: 1440px) {
-  #content {
-    grid-template-areas:
-    'top top top'
-    'main main aside'
-    'main main aside'
-    'bottom bottom bottom';
-    grid-template-rows: 50px 1fr 100px 200px;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 1024px;
-    border: 1px solid purple;
-  }
-
-  .header {
-    grid-area: top;
-  }
-
-  .hero {
-    grid-area: main;
-  }
-
-  .hero__image {
-    max-width: 100%;
-    height: 250px;
-  }
-
-  .hero__content {
-    display: grid;
-    grid-template-columns: 45% 55%;
-  }
-
-  .hero__title {
-    align-self: center;
-    line-height: 6rem;
-  }
-
-  .hero__description {
-    padding-right: 1rem;
-  }
-
-  .hero__button {
-    width: 50%;
-    padding: 1.2rem;
-  }
-
-  .sidebar {
-    grid-area: aside;
-    margin-block: 0;
-  }
-
-  .highlights {
-    grid-area: bottom;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    height: 120px;
-    border: 1px solid red;
+  .highlight__title {
+    font-size: 1.5rem;
   }
 
   .highlight__text {
-    margin-top: 1rem;
-    line-height: 2rem;
+    font-size: 1.4rem;
   }
-} */
+}
