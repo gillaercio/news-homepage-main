@@ -77,11 +77,6 @@ body.menu-open #content {
   pointer-events: none;
 }
 
-body.menu-open #content::before {
-  opacity: 1;
-  pointer-events: auto;
-}
-
 .nav__list {
   display: flex;
   flex-direction: column;
